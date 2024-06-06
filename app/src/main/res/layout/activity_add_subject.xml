@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".activityAddSubject">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Thêm Môn Học"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/editTenmonhoc"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Tên Môn Học"
+        android:layout_gravity="center"
+        android:autofillHints="" />
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/editMonhocid"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Số Tín Chỉ"
+        android:layout_gravity="center"
+        android:autofillHints="" />
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/editMonhoctime"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Thời gian học"
+        android:layout_gravity="center"
+        android:autofillHints="" />
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/editMonhocDiadiem"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Địa Điểm"
+        android:layout_gravity="center"
+        android:autofillHints="" />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:background="@drawable/background_button"
+        android:id="@+id/buttonThemMonhoc"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+</LinearLayout>
